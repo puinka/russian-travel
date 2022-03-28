@@ -1,9 +1,12 @@
 .cover__container {
-  width: 1184px;
-  margin: auto;
+  margin: 0 auto;
+  background-image: url(../../../images/cover-background.jpg);
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  max-width: 1184px;
+  min-height: 740px;
 }
