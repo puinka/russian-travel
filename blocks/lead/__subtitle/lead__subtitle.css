@@ -2,6 +2,17 @@
   font-size: 30px;
   line-height: 1.2;
   font-weight: normal;
-  margin: 0 0 64px;
+  margin: 0 0 56px;
   max-width: 640px;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+  }
 }
