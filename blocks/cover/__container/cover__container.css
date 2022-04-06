@@ -1,12 +1,26 @@
 .cover__container {
   margin: 0 auto;
   background-image: url(../../../images/cover-background.jpg);
+  background-position: center;
+  background-size: cover;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 1184px;
-  min-height: 740px;
+  aspect-ratio: 8/5;
+}
+
+@media screen and (min-width: 320px) {
+  .cover__container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__container {
+    max-width: 1184px;
+    min-height: 740px;
+  }
 }
