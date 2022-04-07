@@ -33,6 +33,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .place {
+    grid-template-columns: 43vw auto;
+    grid-template-rows: auto 43vw;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .place {
     margin-bottom: 80px;
