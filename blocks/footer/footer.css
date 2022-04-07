@@ -9,3 +9,23 @@
     padding: 64px 16px 24px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    padding: 92px 48px 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
+  }
+}
