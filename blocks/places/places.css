@@ -2,12 +2,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 320px) {
-  .places {
-    padding: 64px 0 66px;
-  }
+  padding: 64px 0 66px;
 }
 
 @media screen and (min-width: 768px) {

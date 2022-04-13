@@ -1,12 +1,7 @@
 .intro {
   text-align: left;
-}
-
-@media screen and (min-width: 320px) {
-  .intro {
-    padding: 64px 16px;
-    margin: 0 auto;
-  }
+  padding: 64px 16px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
