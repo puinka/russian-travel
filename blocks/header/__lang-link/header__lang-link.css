@@ -5,10 +5,6 @@
   transition: opacity 0.3s ease;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0;
-}
-
 .header__lang-link:hover {
   opacity: 0.8;
 }
@@ -17,7 +13,6 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 1.1;
-    margin-right: 12px;
   }
 }
 
@@ -25,11 +20,5 @@
   .header__lang-link {
     font-size: 24px;
     line-height: 1.5;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .header__lang-link {
-    margin-right: 15px;
   }
 }
